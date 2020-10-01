@@ -1,0 +1,5 @@
+$textSplit[$message; ] $setUserVar[Warn;$sum[$getUserVar[Warn];1]] $nomention
+
+$title[⚠️Warning⚠️] $color[09FA43] $footer[Avisado por $username] $description[ User: <@$mentioned[<]> Razão: $noMentionMessage
+
+🚨Case number $getUserVar[Warn]🚨] $allowMention $onlyPerms[manageserver;You require Manage Server permissions.] $argsCheck[>1;Mencione alguém para ser avisado] $suppressErrors $useChannel[$getServerVar[logs]] $deletecommand $footerIcon[https://cdn.discordapp.com/attachments/679067296786022434/685809259241275402/emoji_79.gif]
