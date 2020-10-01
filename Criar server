@@ -1,0 +1,9 @@
+$nomention
+
+$onlyAdmin[Somente Adms]
+
+$createChannel[🚪|Boas vindas ▪︎ Adeus ;text] $createChannel[🆚️|Cargos;text] $createChannel[📜|Regras;text] $createChannel[📢|Avisos;text]
+
+$createChannel[Serviços;category] $createChannel[🚨|Denúncias;text] $createChannel[🏓|Suporte;text] $createChannel[Lobby;category] $createChannel[💬|Chat Geral;text] $createChannel[⛔|Comandos;text] $createChannel[📸|imagens e links;text] $createChannel[☕|Staff;text] $createChannel[Chats de Voz;category] $createChannel[🌍|Global¹;voice] $createChannel[🌍|Global²;voice] $createChannel[🎶|Música¹;voice] $createChannel[🎶|Música²;voice] $createChannel[☕|Staff Lounge;voice]
+
+$createRole[👇Cargos Staff👇;ffffff;no;no] $createRole[👑▪︎Dono;ffffff;yes;yes] $createRole[🐉▪︎Sub-Dono;ffffff;yes;yes] $createRole[🔱▪︎Admin;ffffff;yes;yes] $createRole[☣▪︎Mod;ffffff;yes;yes] $createRole[⛔▪︎Equipe Staff;ffffff;yes;yes] $createRole[👇Cargos de Membros👇;ffffff;no;no] $createRole[🌇▪︎Povo;ffffff;yes;yes] $createRole[🚀▪︎Boosters;ffffff;yes;yes] $createRole[🔗▪︎Parceiro;ffffff;yes;yes] $createRole[👇Cargos Registro👇;ffffff;no;no] $createRole[👇Cargos Bots👇;ffffff;no;no] $title[Server Criado!] $description[Seu server foi criado de nada 🥰 Obs:Nenhum canal de texto e voz ou cargo são configurados com permissões] $footer[Comando e Sistema feito por 🦅</Shakada_Love>🔥 || Copyright 🦅</Shakada_Love>🔥 © 2020] $addReactions[✔] $deletecommand
