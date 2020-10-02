@@ -1,3 +1,6 @@
+Crie uma variavel nome: Warn valor: 0
+
+
 $textSplit[$message; ] $setUserVar[Warn;$sum[$getUserVar[Warn];1]] $nomention
 
 $title[⚠️Warning⚠️] $color[09FA43] $footer[Avisado por $username] $description[ User: <@$mentioned[<]> Razão: $noMentionMessage
