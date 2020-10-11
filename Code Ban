@@ -1,0 +1,21 @@
+Comando para Ban
+Variavel: nenhuma
+
+Prefixo (bot prefixo)ban
+Code:
+
+$nomention
+$title[🚫Banido (a) do Servidor 🚫]
+$color[25C059]
+$onlyAdmin[Somente Adms não tente ser espertinho]
+$description[
+---------------------------------
+ ⠀⠀⠀⠀  <:emoji_2:761211923647561748>
+✧ Informações do Banimento ✧
+
+Usuário Banido: <@$mentioned[<]>
+Banido Por: <@$authorID>
+Motivo: $noMentionMessage
+Servidor: $serverName[$guildID]
+--------------------]
+$ban[]
