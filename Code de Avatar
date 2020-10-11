@@ -1,0 +1,12 @@
+Comando de Avatar
+Variavel: Nenhuma
+
+Prefixo: (bot prefixo)avatar
+Code:
+$nomention
+$title[$randomText[📷;📸] Avatar]
+$​image[$​userAvatar[$​replaceText[$​replaceText[*$​mentioned[<]*;**;$​authorID;1];*$​mentioned[<]*;$​mentioned[<];1]]?size=2048]
+$description[📥 [Baixar]($userAvatar[$replaceText[$replaceText[*$mentioned[<]*;**;$authorID;1];*$mentioned[<]*;$mentioned[<];1]]?size=2048)]
+$footer[avatar de: $username[$​replaceText[$​replaceText[*$​mentioned[<]*;**;$​authorID;1];*$​mentioned[<]*;$​mentioned[<];1]]#$discriminator[$​replaceText[$​replaceText[*$​mentioned[<]*;**;$​authorID;1];*$​mentioned[<]*;$​mentioned[<];1]]]
+$footerIcon[$authorAvatar]
+$color[fffff]
