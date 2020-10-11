@@ -1,8 +1,18 @@
-Crie uma variavel nome: Warn valor: 0
+Comando de dar Warn e remover Warns
+Variavel: Warn Valor: 0
 
 
+Prefixo: (bot prefixo)warn <usuário>
+Code:
 $textSplit[$message; ] $setUserVar[Warn;$sum[$getUserVar[Warn];1]] $nomention
 
 $title[⚠️Warning⚠️] $color[09FA43] $footer[Avisado por $username] $description[ User: <@$mentioned[<]> Razão: $noMentionMessage
 
 🚨Case number $getUserVar[Warn]🚨] $allowMention $onlyPerms[manageserver;You require Manage Server permissions.] $argsCheck[>1;Mencione alguém para ser avisado] $suppressErrors $useChannel[$getServerVar[logs]] $deletecommand $footerIcon[https://cdn.discordapp.com/attachments/679067296786022434/685809259241275402/emoji_79.gif]
+
+Prefixo:  (bot prefixo)limpar warns <usuário>
+Code:
+$nomention
+$setUserVar[Warn;0;$mentioned[1;yes]]
+$description[Os warns de <@$mentioned[1;yes]> foram retirados]
+$color[f7424d]
