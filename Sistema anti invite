@@ -1,0 +1,31 @@
+Comando que irá bloquear invites (NÃO MEXA)
+
+Variavel: env Valor: no
+
+Prefixo: discord.gg/
+Code:
+$nomention
+$allowMention
+$deletecommand
+$title[ANTI-INVITE ]
+$description[<@$authorID>você não pode mandar invite de outros server aqui!]
+$enabled[$getServerVar[env];]
+
+Para ativar o Anti Invite:
+
+Prefixo: (prefixo do bot)antiinvite on
+Code:
+$nomention
+$setServerVar[env;yes]
+$title[ANTI-INVITE ON]
+$description[ANTI-INVITE foi habilitado por <@$authorID>]
+$onlyAdmim[Somente Adms não tente ser espertinho]
+
+
+Para desativar o Anti Invite:
+Prefixo: (prefixo do bot)antiinvite off
+$nomention
+$setServerVar[env;no]
+$title[ANTI-INVITE OFF]
+$description[ANTI-INVITE foi deshabilitado por <@$authorID>]
+$onlyAdmim[Somente Adms não tente ser espertinho]
