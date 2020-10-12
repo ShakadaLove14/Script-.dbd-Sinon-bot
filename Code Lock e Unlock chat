@@ -1,0 +1,22 @@
+Comando de Lock e Unlock do chat 
+Variavel: Nenhuma
+
+Prefixo:(bot prefixo)Lock
+Code:
+$modifyChannelPerms[$channelID;-sendmessages;$guildID]
+$title[Canal de texto Travado]
+$description[<:emoji_2:761211923647561748>🔒 Canal travado]
+$onlyAdmin[Somente Adms pode não tenta ser espertinho não 😡!]
+$nomention
+$footerIcon[https://cdn.discordapp.com/attachments/679067296786022434/685809259241275402/emoji_79.gif]
+
+
+
+Prefixo:(bot prefixo)unlock
+Code:
+$nomention
+$modifyChannelPerms[$channelID;+sendmessages;$guildID]
+$title[Canal de texto Destravado]
+$description[<:emoji_2:761211923647561748> 🔓 Canal destravado]
+$onlyAdmin[Somente Adms não tente ser espertinho 😡!]
+$footerIcon[https://cdn.discordapp.com/attachments/679067296786022434/685809259241275402/emoji_79.gif]
