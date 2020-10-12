@@ -1,0 +1,24 @@
+Comando de criar cargos de cor
+Variavel: nenhuma 
+
+Prefixo: (bot prefixo)
+Code:
+$nomention
+$createRole[▼ CORES ▼;ffffff;no;no]
+$createRole[Vermelho;ff0000;no;no]
+$createRole[Amarelo;fffa00;no;no]
+$createRole[Marrom;2c1503;no;no]
+$createRole[Laranja;E66520;no;no]
+$createRole[Preto;000001;no;no]
+$createRole[Verde;1eff00;no;no]
+$createRole[Ciano;00eeff;no;no]
+$createRole[Azul;0005ff;no;no]
+$createRole[Roxo;8d00ff;no;no]
+$createRole[Rosa;ef00ff;no;no]
+$createRole[Branco;ffffff;no;no]
+$onlyAdmin[Vc não é adm para executar o comando]
+$title[<:emoji_2:761211923647561748> Cores <:emoji_2:761211923647561748>]
+$description[Suas cores foram criadas]
+$footer[Sistema criado por Shakada_Love]
+$color[00eeff]
+$deletecommand
