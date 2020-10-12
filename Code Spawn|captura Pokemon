@@ -1,0 +1,26 @@
+Comando de spwan pokemon
+Variavel: pokemon Valor: 0 
+
+Prefixo: (bot prefixo)spwan
+Code:
+$nomention
+$title[Um Pokémon apareceu!]
+$image[https://professorlotus.com/Sprites/$randomText[Bulbasaur;Ivysaur;Venusaur;Charmander;Charmeleon;Charizard;Squirtle;Wartortle;Blastoise;Caterpie;Metapod;Butterfree;weedle;Kakuna;Beedrill;Pidgey;Pidgeotto;Pidgeot;Rattata;Raticate;Spearow;Fearow;ekans;Arbok;Pikachu;Raichu;Sandshrew;Sandslash;Nidorina;Nidoqueen;Nidorino;Nidoking;clefairy;Clefable;Vulpix;Ninetales;Crobat;Gastly;Talonflame;Granbull;Zubat;Golbat;Diglett;Dugtrio;Oddish;Gloom;Vileplum;Paras;Parasect;Venonat;Venomoth;Meowth;Persian;Psyduck;Golduck;Mankey;Primeape;Growlithe;Arcanine;Poliwag;Poliwhirl;Poliwrath;Abra;Kadabra;Alakazam;Machop;Machoke;Machamp;Bellsprout]]
+$setServerVar[pokemon;$randomText[Bulbasaur;Ivysaur;Venusaur;Charmander;Charmeleon;Charizard;Squirtle;Wartortle;Blastoise;Caterpie;Metapod;Butterfree;weedle;Kakuna;Beedrill;Pidgey;Pidgeotto;Pidgeot;Rattata;Raticate;Spearow;Fearow;ekans;Arbok;Pikachu;Raichu;Sandshrew;Sandslash;Nidorina;Nidoqueen;Nidorino;Nidoking;clefairy;Clefable;Vulpix;Ninetales;Crobat;Gastly;Talonflame;Granbull;Zubat;Golbat;Diglett;Dugtrio;Oddish;Gloom;Vileplum;Paras;Parasect;Venonat;Venomoth;Meowth;Persian;Psyduck;Golduck;Mankey;Primeape;Growlithe;Arcanine;Poliwag;Poliwhirl;Poliwrath;Abra;Kadabra;Alakazam;Machop;Machoke;Machamp;Bellsprout]]
+$deletecommand
+
+Comando de captura de pokemon
+Variavel: pokemon Valor: 0 
+
+Prefixo: (bot prefixo)captura <nome do pokemon
+Code:
+$noment
+$nomention
+$onlyIf[$message[1]==$getServerVar[pokemon];Errou!]
+$title[Congratulations!]
+$description[Congratulations $username Parabéns você o capturou]
+$getUserVar[pokemon]]
+$image[https://professorlotus.com/Sprites/$message]
+$color[$random[00;999999]]
+$footer[I gonna catch them all!]
+$deletecommand
