@@ -1,0 +1,10 @@
+Comando para Distorcer o Avatar do Mencionado
+Variavel: nenhuma
+
+Prefixo:(bot prefixo)distorcer <usuário>
+Code:
+$nomention
+$image[https://api.alexflipnote.dev/filter/magik?image=$userAvatar[$mentioned[1]]]
+$color[00ffdb]
+$argsCheck[1;Voce deve mencionar alguém!]
+$onlyIf[$mentioned[1]!=; Você deve Mencionar Alguém!]
