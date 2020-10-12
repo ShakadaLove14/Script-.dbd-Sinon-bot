@@ -1,0 +1,24 @@
+Comando de criar chat de texto e voz
+Variavel: nenhuma
+
+Prefixo: (bot prefixo)criarchat
+Code:
+$title[Novo Canal de Texto]
+$color[2684]
+$description[<:emoji_2:761211923647561748> Canal de texto criado 📁 por $username.
+Nome do canal: $message]
+$createChannel[$message;text]
+$nomention 
+$onlyAdmin[Somente Adms não tente ser espertinho 😡!]
+$footerIcon[https://cdn.discordapp.com/attachments/679067296786022434/685809259241275402/emoji_79.gif]
+
+Prefixo: (bot prefixo)criarvod
+Code:
+$title[Novo Canal de Voz]
+$color[2684]
+$description[<:emoji_2:761211923647561748> Canal de voz criado 🎤 por $username.
+Nome do canal: $message]
+$createChannel[$message;voice]
+$nomention
+$onlyAdmin[Somente Adms não tente ser espertinho 😡!]
+$footerIcon[https://cdn.discordapp.com/attachments/679067296786022434/685809259241275402/emoji_79.gif]
