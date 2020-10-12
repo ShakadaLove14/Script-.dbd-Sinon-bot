@@ -1,0 +1,27 @@
+Comando pesquisa via Google
+Variavel: nenhuma 
+
+Prefixo: (bot prefixo)google <palavra para pesquisa> 
+Code:
+$addReactions[✅;❌]
+$color[$random[100000;9999999]]
+$description[**Pesquisando no Google.....** https://www.google.com/search?q=$replaceText[$message; ;+;-1]
+Pesquisa: **$message**
+Autor: **$username**]
+$nomention
+
+Comando pesquisa via youtube
+Variavel: nenhuma 
+
+Prefixo: (bot prefixo)youtube <palavra para pesquisa> 
+Code:
+$nomention
+$color[ff0101]
+$authorIcon[https://cdn.discordapp.com/attachments/578508199330840579/582510059360092161/social-youtube-circular-button.png]
+$author[Pesquisa no Youtube]
+$description[Pesquisando no Youtube...
+https://m.youtube.com/results?search_query=$replaceText[$message; ;+;-1]
+Pesquisa: **$message**
+Autor: **$username**]
+$deletecommand
+$addReactions[✅;❌]
