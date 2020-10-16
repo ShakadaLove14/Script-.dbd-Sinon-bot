@@ -1,0 +1,58 @@
+$nomention $nomention $argsCheck[>1;✨| Mencione alguém Por Favor] 
+$color[5828]
+ $userInfo[ **Informação Do Usuário**
+ 🔱Nome: {username} 
+▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎
+📢 ID: {ID} 
+▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎
+⚜ Menção: <@$mentioned[1]>
+▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎
+♨️É um bot? {BOT} 
+▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎
+🛡 Tag: {discriminator} 
+▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎
+✨Conta Criada em: $creationDate[$mentioned[1]] 
+▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎
+⬆Maior cargo : <@&$highestRole[$mentioned[1;yes]]>
+▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎
+⬇ Menor Cargo : <@&$lowestRole[$mentioned[1;yes]]>
+▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎▪︎
+ ❄Cargos :
+$userRoles[$mentioned[1;yes]]]
+
+ $footer[Pedido por: $username] 
+$deletecommand
+
+$​nomention
+$​color[5b00ff]
+$​title[<:emoji_2:761211923647561748> Server Info <:emoji_2:761211923647561748>]
+$​serverInfo[
+👑``Dono``
+{owner}
+**———=———=———=———=———**
+``Nome Do Servidor``
+{name}
+**———=———=———=———=———**
+``Criado em``
+$creationDate[$guildID]
+**———=———=———=———=———**
+🌍``Região Do Servidor``
+$serverRegion
+**———=———=———=———=———**
+👨‍👩‍👧‍👦``Membros``: $​membersCount
+**———=———=———=———=———**
+📊``Level de Verificação``📊
+{verificationLvl}
+**———=———=———=———=———**
+😛``Emojis do servidor``: $emoteCount
+ {emoji}
+**———=———=———=———=———**
+💭``Canais``: $channelCount
+💠``Cargos`` : $roleCount
+**———=———=———=———=———**
+📷``Foto do Server``:
+$image[$serverIcon]
+]
+$​footer[📚 Info Geral do Server 📚]
+$onlyAdmin[Somente Adms não tente ser espertinho 😡!]
+$footerIcon[https://cdn.discordapp.com/attachments/679067296786022434/685809259241275402/emoji_79.gif]
