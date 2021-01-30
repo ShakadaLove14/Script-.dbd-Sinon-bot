@@ -1,0 +1,48 @@
+Duas variaveis
+
+Nome: entrada 
+Valor: Não definido
+
+Nome: saida
+Valor: Não definido
+
+Comando de Set Bye e Set Welcome
+
+Set Welcome
+
+Prefixo: (prefixo)setwelcome
+Code:
+$setServerVar[entrada;$mentionedChannels[1]]
+Canal de bem-vindo setado para <#$mentionedChannels[1]>
+$onlyAdmin[Você precisa da permissão de ``Administrador`` para usar esse comando]
+$suppressErrors[Algo deu errado ao executar esse comando]
+$argsCheck[>1;Você precisa definir um canal para ser usado nas mensagens de entrada]
+$onlyAdmin[Somente Adms não tente ser espertinho😡 !]
+
+Set Bye
+
+Prefixo: (prefixo)setbye
+Code:
+$setServerVar[saida;$mentionedChannels[1]]
+Canal de saída setado para <#$mentionedChannels[1]>
+$onlyAdmin[Você precisa da permissão de ``Administrador`` para usar esse comando]
+$suppressErrors[Algo deu errado ao executar esse comando]
+$argsCheck[>1;Você precisar definir um canal para ser usado nas mensagens de saida]
+$onlyAdmin[Somente Adms não tente ser espertinho😡 !]
+
+
+Mensagens de Welcome e Bye
+
+Welcome
+
+Prefixo $onJoined[$getServerVar[entrada]] 
+Code:
+$image[https://api.xzusfin.repl.co/card?avatar=$replaceText[$authorAvatar;.
+webp;.png;1]?size=2048&middle=Welcome&name=$replaceText[$replaceText[$username[$authorID]#$discriminator[$authorID];#;%23;-1]; ;%20;-1]&bottom=$replaceText[Temos agora $membersCount membros; ;%20;-1]&background=https://cdn.discordapp.com/attachments/789656208276848682/798106281189572645/default11.png&text=%23ffffff&avatarborder=%23FFFFFF&avatarbg=%23FF28b3]
+$suppressErrors
+
+Bye
+Prefixo: $onLeave[$getServerVar[saida]]
+Code:
+$image[https://api.xzusfin.repl.co/card?avatar=$replaceText[$authorAvatar;.webp;.png;1]?size=2048&middle=Goodbye&name=$replaceText[$replaceText[$username[$authorID]#$discriminator[$authorID];#;%23;-1]; ;%20;-1]&bottom=$replaceText[Now we are $membersCount members; ;%20;-1]&background=https://cdn.discordapp.com/attachments/789656208276848682/798106281189572645/default11.png&text=%23ffffff&avatarborder=%23FFFFFF&avatarbg=%23FF28b3]
+$suppressErrors 
